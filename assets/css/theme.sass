@@ -1,0 +1,38 @@
+@import './_colorScheme'
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap')
+
+:root
+  --color-background: hsl(0, 0%, 100%)
+  --color-background-hover: hsl(0, 0%, 89%)
+  --color-background-text: hsl(0, 0%, 39%)
+  --color-primary: hsl(180, 88%, 32%)
+  --color-primary-hover: hsl(180, 88%, 65%)
+  --color-primary-text: hsl(0, 0%, 100%)
+  --color-success: hsl(94, 75%, 60%)
+  --color-info: hsl(216, 60%, 58%)
+  --color-error: hsl(4, 60%, 58%)
+
+  --text-size-big: 2rem
+  --text-size-normal: 1rem
+  --text-size-small: 0.8rem
+
+@include dark
+  :root
+    --color-background: hsl(0, 0%, 10%)
+    --color-background-hover: hsl(0, 0%, 18%)
+    --color-background-text: hsl(0, 0%, 83%)
+    --color-primary: hsl(180, 88%, 9%)
+    --color-primary-hover: hsl(180, 88%, 35%)
+    --color-primary-text: hsl(0, 0%, 100%)
+
+    --text-size-big: 2rem
+    --text-size-normal: 1rem
+    --text-size-small: 0.8rem
+
+html
+  font-family: Comfortaa, cursive
+  font-size: 20px
+
+body
+  background-color: var(--color-primary)
+  color: var(--color-primary-text)

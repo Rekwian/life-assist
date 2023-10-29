@@ -1,0 +1,46 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/i18n": "^8.0.0-rc.4",
+    "@nuxtjs/supabase": "^1.1.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "@types/node": "^18.17.3",
+    "@vue/language-plugin-pug": "^1.8.8",
+    "dotenv": "^16.3.1",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-custom-alias": "^1.3.2",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-vue": "^9.17.0",
+    "eslint-plugin-vue-pug": "^0.6.0",
+    "knex": "^3.0.1",
+    "nuxt": "^3.6.5",
+    "nuxt-icon": "^0.5.0",
+    "pug": "^3.0.2",
+    "reset-css": "^5.0.2",
+    "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "@vueuse/core": "^10.5.0",
+    "animate.css": "^4.1.1",
+    "date-fns": "^2.30.0",
+    "lodash": "^4.17.21",
+    "pg": "^8.11.3",
+    "pinia": "^2.1.6"
+  },
+  "volta": {
+    "node": "18.18.2",
+    "yarn": "4.0.0"
+  }
+}

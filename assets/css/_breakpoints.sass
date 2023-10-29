@@ -1,0 +1,24 @@
+@use "sass:map"
+
+$breakpoints: (sm: 300, md: 600, lg: 1280, xl: 1440)
+
+$sm: map.get($breakpoints, sm) + 'px'
+$md: map.get($breakpoints, md) + 'px'
+$lg: map.get($breakpoints, lg) + 'px'
+$xl: map.get($breakpoints, xl) + 'px'
+
+@mixin sm-min
+  @media (min-width: $sm)
+    @content
+
+@mixin md-min
+  @media (min-width: $md)
+    @content
+
+@mixin lg-min
+  @media (min-width: $lg)
+    @content
+
+@mixin xl-min
+  @media (min-width: $xl)
+    @content
